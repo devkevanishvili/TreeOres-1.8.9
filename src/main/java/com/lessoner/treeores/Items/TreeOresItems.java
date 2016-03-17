@@ -19,6 +19,7 @@ public class TreeOresItems {
     public static Item BossSpawners1;
     public static Item BossSpawners2;
     public static Item BossSpawners3;
+    public static Item BossSpawnerParts;
     public static Item TreeChops1;
     public static Item TreeChops2;
     public static Item TreeChops3;
@@ -28,6 +29,7 @@ public class TreeOresItems {
         BossSpawners1 = new ItemBossSpawners1().setRegistryName(References.MODID,"bossspawners1").setUnlocalizedName("bossspawners1").setCreativeTab(TreeOresMod.treeOresTab);
         BossSpawners2 = new ItemBossSpawners2().setRegistryName(References.MODID,"bossspawners2").setUnlocalizedName("bossspawners2").setCreativeTab(TreeOresMod.treeOresTab);
         BossSpawners3 = new ItemBossSpawners3().setRegistryName(References.MODID,"bossspawners3").setUnlocalizedName("bossspawners3").setCreativeTab(TreeOresMod.treeOresTab);
+        BossSpawnerParts = new ItemBossSpawnerParts().setRegistryName(References.MODID,"bossspawnerparts").setUnlocalizedName("bossspawnerparts").setCreativeTab(TreeOresMod.treeOresTab);
         TreeChops1 = new ItemTreeChops1().setRegistryName(References.MODID,"treechops1").setUnlocalizedName("treechops1").setCreativeTab(TreeOresMod.treeOresTab);
         TreeChops2 = new ItemTreeChops2().setRegistryName(References.MODID,"treechops2").setUnlocalizedName("treechops2").setCreativeTab(TreeOresMod.treeOresTab);
         TreeChops3 = new ItemTreeChops3().setRegistryName(References.MODID,"treechops3").setUnlocalizedName("treechops3").setCreativeTab(TreeOresMod.treeOresTab);
@@ -39,6 +41,7 @@ public class TreeOresItems {
         GameRegistry.registerItem(BossSpawners1,BossSpawners1.getRegistryName());
         GameRegistry.registerItem(BossSpawners2,BossSpawners2.getRegistryName());
         GameRegistry.registerItem(BossSpawners3,BossSpawners3.getRegistryName());
+        GameRegistry.registerItem(BossSpawnerParts,BossSpawnerParts.getRegistryName());
 
         GameRegistry.registerItem(TreeChops1,TreeChops1.getRegistryName());
         GameRegistry.registerItem(TreeChops2,TreeChops2.getRegistryName());
@@ -52,6 +55,7 @@ public class TreeOresItems {
             registerRenderers(BossSpawners1,4);
             registerRenderers(BossSpawners2,4);
             registerRenderers(BossSpawners3,3);
+            registerRenderers(BossSpawnerParts,2);
 
             registerRenderers(TreeChops1,4);
             registerRenderers(TreeChops2,4);
@@ -63,6 +67,7 @@ public class TreeOresItems {
         registerVariant(BossSpawners1,4);
         registerVariant(BossSpawners2,4);
         registerVariant(BossSpawners3,3);
+        registerVariant(BossSpawnerParts,2);
 
         registerVariant(TreeChops1,4);
         registerVariant(TreeChops2,4);
