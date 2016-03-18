@@ -1,6 +1,8 @@
 package com.lessoner.treeores.Blocks;
 
 import com.google.common.base.Predicate;
+import com.lessoner.treeores.Items.TreeOresItems;
+import com.lessoner.treeores.References;
 import net.minecraft.block.BlockLog;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyEnum;
@@ -15,6 +17,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 import java.awt.*;
 import java.util.List;
+import java.util.Random;
 
 /**
  * Created by anguarmas on 15.02.16.
@@ -114,6 +117,14 @@ public class TreeOresLogs3 extends BlockLog {
     public int damageDropped(IBlockState state)
     {
         return ((TreeOresLogs3.EnumType)state.getValue(VARIANT)).getMetadata();
+    }
+    public Item getItemDropped(IBlockState state, Random rand, int fortune)
+    {
+        if(References.EnableChops) {
+            return TreeOresItems.TreeChops3;
+        }else{
+            return Item.getItemFromBlock(this);
+        }
     }
     public static enum EnumType implements IStringSerializable
     {

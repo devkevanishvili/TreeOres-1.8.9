@@ -16,4 +16,24 @@ public class References {
     @Mod.Instance(MODID)
     public static TreeOresMod INSTANCE;
 
+    public static boolean EnableIronTreeCrafting;
+    public static boolean EnableGoldTreeCrafting;
+    public static boolean EnableCoalTreeCrafting;
+    public static boolean EnableRedstoneTreeCrafting;
+    public static boolean EnableEmeraldTreeCrafting;
+    public static boolean EnableDiamondTreeCrafting;
+    public static boolean EnableLapisTreeCrafting;
+    public static boolean EnableObsidianTreeCrafting;
+    public static boolean EnableGlowstoneTreeCrafting;
+    public static boolean EnableQuartzTreeCrafting;
+    public static boolean EnableXpTreeCrafting;
+    public static boolean EnableBonemeal;
+    public static boolean EnableBonemealBossTrees;
+    public static boolean EnableChops;
+
+    public static String OreDictLeaves;
+    public static String OreDictLogs;
+    public static String OreDictSaplings;
+    public static String oreDictChops;
+
 }

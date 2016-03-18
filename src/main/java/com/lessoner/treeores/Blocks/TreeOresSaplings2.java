@@ -1,5 +1,6 @@
 package com.lessoner.treeores.Blocks;
 
+import com.lessoner.treeores.References;
 import com.lessoner.treeores.WorldGen.WorldGenTreeOres2;
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.BlockLeaves;
@@ -174,7 +175,11 @@ public class TreeOresSaplings2 extends BlockBush implements IGrowable  {
 
     public boolean canUseBonemeal(World worldIn, Random rand, BlockPos pos, IBlockState state)
     {
-        return (double)worldIn.rand.nextFloat() < 0.45D;
+        if(References.EnableBonemeal) {
+            return (double) worldIn.rand.nextFloat() < 0.45D;
+        }else{
+            return false;
+        }
     }
 
     public void grow(World worldIn, Random rand, BlockPos pos, IBlockState state)
