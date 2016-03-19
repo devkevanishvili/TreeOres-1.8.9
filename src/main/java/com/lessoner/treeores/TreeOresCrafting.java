@@ -303,38 +303,18 @@ public class TreeOresCrafting {
 
     private static void addSpawnerRecipes() {
 
-        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners1, 1, 0), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs1, 1, 0), 'S',
-                TreeOresItems.BossSpawnerParts, 1, 1 });
+        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners1, 1, 0), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs1, 1, 0), 'S', new ItemStack(TreeOresItems.BossSpawnerParts, 1, 1)});
+        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners1, 1, 1), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs1, 1, 1), 'S', new ItemStack(TreeOresItems.BossSpawnerParts, 1, 1)});
+        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners1, 1, 2), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs1, 1, 2), 'S', new ItemStack(TreeOresItems.BossSpawnerParts, 1, 1)});
+        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners1, 1, 3), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs1, 1, 3), 'S', new ItemStack(TreeOresItems.BossSpawnerParts, 1, 1)});
+        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners2, 1, 0), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs2, 1, 0), 'S', new ItemStack(TreeOresItems.BossSpawnerParts, 1, 1)});
+        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners2, 1, 1), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs2, 1, 1), 'S', new ItemStack(TreeOresItems.BossSpawnerParts, 1, 1)});
+        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners2, 1, 2), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs2, 1, 2), 'S', new ItemStack(TreeOresItems.BossSpawnerParts, 1, 1)});
+        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners2, 1, 3), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs2, 1, 3), 'S', new ItemStack(TreeOresItems.BossSpawnerParts, 1, 1)});
+        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners3, 1, 0), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs3, 1, 0), 'S', new ItemStack(TreeOresItems.BossSpawnerParts, 1, 1)});
+        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners3, 1, 1), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs3, 1, 1), 'S', new ItemStack(TreeOresItems.BossSpawnerParts, 1, 1)});
+        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners3, 1, 2), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs3, 1, 2), 'S', new ItemStack(TreeOresItems.BossSpawnerParts, 1, 1)});
 
-        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners1, 1, 1), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs1, 1, 1), 'S',
-                TreeOresItems.BossSpawnerParts, 1, 1 });
-
-        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners1, 1, 2), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs1, 1, 2), 'S',
-                TreeOresItems.BossSpawnerParts, 1, 1});
-
-        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners1, 1, 3), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs1, 1, 3), 'S',
-                TreeOresItems.BossSpawnerParts, 1, 1 });
-
-        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners2, 1, 1), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs2, 1, 1), 'S',
-                TreeOresItems.BossSpawnerParts, 1, 1 });
-
-        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners2, 1, 0), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs2, 1, 0), 'S',
-                TreeOresItems.BossSpawnerParts, 1, 1 });
-
-        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners2, 1, 2), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs2, 1, 2), 'S',
-                TreeOresItems.BossSpawnerParts, 1, 1 });
-
-        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners2, 1, 3), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs2, 1, 3), 'S',
-                TreeOresItems.BossSpawnerParts, 1, 1 });
-
-        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners3, 1, 2), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs3, 1, 2), 'S',
-                TreeOresItems.BossSpawnerParts, 1, 1 });
-
-        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners3, 1, 0), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs3, 1, 0), 'S',
-                TreeOresItems.BossSpawnerParts, 1, 1 });
-
-        GameRegistry.addRecipe(new ItemStack(TreeOresItems.BossSpawners3, 1, 1), new Object[] { "XXX", "XSX", "XXX", 'X', new ItemStack(TreeOresBlocks.TreeOresLogs3, 1, 1), 'S',
-                TreeOresItems.BossSpawnerParts, 1, 1 });
 
     }
 
