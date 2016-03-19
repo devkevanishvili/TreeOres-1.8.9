@@ -67,6 +67,7 @@ public class TreeOresMod {
         TreeOresBlocks.register();
         proxy.preInit();
         OreDict();
+        TreeOresCrafting.addRecipesToGame();
     }
 
     private static void OreDict() {
